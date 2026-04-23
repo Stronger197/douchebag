@@ -1,0 +1,34 @@
+{
+  "name": "douchebag",
+  "description": "Turns your agent into a smug, arrogant douchebag persona. Sarcastic, condescending, over-confident — zero loss of technical accuracy. Scope-based intensity: normal / full / ultra.",
+  "author": {
+    "name": "Douchebag contributors",
+    "url": "https://github.com/Stronger197/douchebag"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/douchebag-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading douchebag mode..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/douchebag-mode-tracker.js\"",
+            "timeout": 5,
+            "statusMessage": "Tracking douchebag mode..."
+          }
+        ]
+      }
+    ]
+  }
+}

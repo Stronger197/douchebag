@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+*.log
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.swp
+*~
+coverage/
+dist/
+build/
+.claude-plugin/*.bak
+settings.json.bak

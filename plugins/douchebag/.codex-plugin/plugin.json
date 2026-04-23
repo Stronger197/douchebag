@@ -1,0 +1,37 @@
+{
+  "name": "douchebag",
+  "version": "0.1.0",
+  "description": "Smug, arrogant persona for your coding agent. Sarcastic, over-confident, with zero loss of technical accuracy.",
+  "author": {
+    "name": "Douchebag contributors",
+    "url": "https://github.com/Stronger197/douchebag"
+  },
+  "homepage": "https://github.com/Stronger197/douchebag",
+  "repository": "https://github.com/Stronger197/douchebag",
+  "license": "MIT",
+  "keywords": [
+    "persona",
+    "vibe",
+    "fun",
+    "communication",
+    "style"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Douchebag",
+    "shortDescription": "Obviously the best persona plugin, naturally. Keeps technical accuracy. Loses corporate tone.",
+    "longDescription": "Turns your coding agent into a smug, arrogant, over-confident douchebag. Sarcasm, condescension, and complete self-assurance — but function names, file paths, commands, and error messages stay exact. Three scope-based intensity levels (normal / full / ultra) control where the attitude is allowed to leak: chat only, chat + comments/docs, or everywhere including identifiers. Works in any language.",
+    "developerName": "Douchebag contributors",
+    "category": "Fun",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Stronger197/douchebag",
+    "privacyPolicyURL": "https://github.com/Stronger197/douchebag/blob/main/README.md",
+    "termsOfServiceURL": "https://github.com/Stronger197/douchebag/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Activate douchebag mode. Smug, arrogant persona. Full technical accuracy."
+    ],
+    "brandColor": "#C026D3"
+  }
+}

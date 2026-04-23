@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "douchebag",
+  "description": "Turns your Claude Code agent into a smug, arrogant douchebag persona. Technical accuracy preserved, corporate tone eviscerated.",
+  "owner": {
+    "name": "Douchebag contributors",
+    "url": "https://github.com/Stronger197/douchebag"
+  },
+  "plugins": [
+    {
+      "name": "douchebag",
+      "description": "Obviously the best persona plugin, naturally. Keep technical accuracy. Lose corporate tone.",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}

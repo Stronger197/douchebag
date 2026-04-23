@@ -1,0 +1,12 @@
+{
+  "name": "douchebag",
+  "description": "Smug, arrogant persona for coding agents. Full technical accuracy preserved.",
+  "plugins": [
+    {
+      "name": "douchebag",
+      "description": "Obviously the best persona plugin, naturally. Keep technical accuracy. Lose corporate tone.",
+      "source": "../../",
+      "category": "fun"
+    }
+  ]
+}
